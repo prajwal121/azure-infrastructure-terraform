@@ -1,0 +1,30 @@
+﻿# Terraform working directory
+.terraform/
+
+# Terraform state and backups
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plan files
+tfplan
+*.tfplan
+
+# Local variable files (may contain environment-specific values)
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Secrets and private keys
+*.pem
+*.key
+id_rsa
+id_rsa.*
+.env
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
